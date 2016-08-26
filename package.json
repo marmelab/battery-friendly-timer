@@ -1,0 +1,36 @@
+{
+  "name": "battery-friendly-timer",
+  "version": "1.0.0",
+  "description": "Mobile applications using `setInterval` to poll a server are a battery hogs. Save battery life by fetching data at the right moment.",
+  "files": [
+    "*.md",
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "setTimeout",
+    "setInterval",
+    "refresh"
+  ],
+  "repository": "marmelab/battery-friendly-timer",
+  "homepage": "https://github.com/marmelab/battery-friendly-timer#readme",
+  "bugs": "https://github.com/marmelab/battery-friendly-timer/issues",
+  "author": "François Zaninotto",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-register": "^6.14.0",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.2",
+    "mocha": "^3.0.2"
+  }
+}
