@@ -51,7 +51,7 @@ class BatteryFriendlyTimer {
     setInterval(callback, tryDelay, forceDelay) {
         const latestId = ++this.latestId;
         const now = Date.now();
-        const interval = { from: now, latest: now, callback, tryDelay };
+        const interval = { from: now, latest: now, callback, tryDelay, forceDelay };
         this.intervals[latestId] = interval;
         this.forceIntervals[latestId] = this.win.setInterval(() => {
             if ((now - interval.latest) >= interval.forceDelay) {
