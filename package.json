@@ -1,6 +1,6 @@
 {
   "name": "battery-friendly-timer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mobile applications using `setInterval` to poll a server are a battery hogs. Save battery life by fetching data at the right moment.",
   "files": [
     "*.md",
