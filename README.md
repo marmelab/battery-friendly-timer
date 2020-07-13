@@ -1,5 +1,15 @@
 # Battery-Friendly Timer
 
+<table>
+        <tr>
+            <td><img width="60" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/book.svg" alt="publication" /></td>
+            <td><strong>Archived Repository</strong><br />
+            The code of this repository was written to illustrate the blog post <a href="https://marmelab.com/blog/2016/08/29/auto-reload-spa-on-mobile-setinterval.html">Update a Single Page App on Code Change Without Draining The Battery</a><br />
+        <strong>This code is not intended to be used in production, and is not maintained.</strong>
+        </td>
+        </tr>
+</table>
+
 Mobile applications using `setInterval` to poll a server are a battery hogs. Save battery life by fetching data at the right moment.
 
 ## Motivation
